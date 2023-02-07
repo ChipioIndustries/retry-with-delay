@@ -1,3 +1,7 @@
+## v1.0.0
+
+* Official release.
+
 ## v0.9.1
 
 * Test release.
