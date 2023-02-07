@@ -40,7 +40,9 @@ return function()
 				didRun = true
 			end
 			retryWithDelay(attempt, 5, 1)
-			repeat task.wait() until checkComplete == true
+			repeat
+				task.wait()
+			until checkComplete == true
 		end)
 
 		it("should return the result", function()
