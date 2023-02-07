@@ -1,0 +1,6 @@
+{
+	"name": "retry-with-delay",
+	"tree": {
+		"$path": "src"
+	}
+}

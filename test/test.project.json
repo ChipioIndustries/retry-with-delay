@@ -1,0 +1,20 @@
+{
+	"name": "retry-with-delay",
+	"tree": {
+		"$className": "DataModel",
+
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"DevPackages": {
+				"$path": "../DevPackages"
+			},
+			"Packages": {
+				"$className": "Folder",
+				"$path": "../Packages",
+				"retryWithDelay": {
+					"$path": "../default.project.json"
+				}
+			}
+		}
+	}
+}
