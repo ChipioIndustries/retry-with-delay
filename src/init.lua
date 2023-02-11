@@ -1,7 +1,4 @@
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
-
-local packages = ReplicatedStorage.Packages
-local t = require(packages.t)
+local t = require(script.Parent.t)
 
 local function retryWithDelay(callback, maxRetries, timeDelay, ...)
 	assert(t.callback(callback))

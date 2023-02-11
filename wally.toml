@@ -1,7 +1,7 @@
 [package]
 name = "chipioindustries/retry-with-delay"
 description = "Utility function for pcalling and retrying a function multiple times."
-version = "1.0.0"
+version = "1.0.1"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 exclude = ["wally.exe", "aftman", "*.zip"]

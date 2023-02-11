@@ -1,3 +1,7 @@
+## v1.0.1
+
+* Fixed requiring of t depending on the location of the project's packages
+
 ## v1.0.0
 
 * Official release.
